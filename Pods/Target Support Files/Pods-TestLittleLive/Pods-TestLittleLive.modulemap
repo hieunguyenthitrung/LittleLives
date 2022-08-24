@@ -1,0 +1,6 @@
+framework module Pods_TestLittleLive {
+  umbrella header "Pods-TestLittleLive-umbrella.h"
+
+  export *
+  module * { export * }
+}
