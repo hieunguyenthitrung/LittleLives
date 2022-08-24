@@ -7,11 +7,16 @@
 
 import UIKit
 
+protocol HomeDelegate{
+    func showAlert()
+}
+
 class HomeViewController: UITableViewController {
     
     var userEvents : [UserEvent]?
     var currentSize = 0
     let pageSize = 10
+    var delegate : HomeDelegate?
 
     override func viewDidLoad() {
         super.viewDidLoad()
